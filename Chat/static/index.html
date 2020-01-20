@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>Chatting</title>
+        <link rel="stylesheet" href="/css/index.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/index.js"></script>
+    </head>
+    <body>
+   
+</div>
+        <div id="main">
+            <div id="chat">
+                <script type="text/javascript">function printTime() {
+
+                    var clock = document.getElementById("clock");
+                
+                    var now = new Date();
+                
+                    var ampm;
+                
+                    if (now.getHours() >= 12) { 
+                
+                        ampm = "PM";
+                
+                    } else { 
+                
+                        ampm = "AM"; 
+                
+                    }
+                
+                    var nowTime = now.getFullYear() + "-" + (now.getMonth()+1) + "-" + now.getDate() + " &nbsp;" + ampm + "&nbsp;" + now.getHours() + " : " + now.getMinutes() + " : " + now.getSeconds();
+                
+                    clock.innerHTML = nowTime;
+                
+                    setTimeout("printTime()",1000);
+                
+                }
+                
+                window.onload = function() {
+                
+                    printTime();
+                
+                }
+                </script>
+                
+                <p class="date" id='clock'></p>
+                <p class="bitch">욕설금지</p>
+
+                <!--chat-->
+            </div>
+        <div>
+        <div class="a"></div>
+        <input class="input" type="text" id="test" placeholder="메세지를 입력하세요!">
+        <button class="btn" onclick="send()">전송</button>
+        </div>
+      </div>
+    </body>
+
+
+</html>

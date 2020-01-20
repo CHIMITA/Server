@@ -1,0 +1,91 @@
+#main{
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    width: 500px;
+    height: auto;
+}
+
+#chat{
+    height: 90%;
+    width: 100%;
+}
+
+.connect{
+    width: 89%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.143);
+}
+
+.disconnect{
+    width: 89%;
+    margin: auto;
+    background-color: rgb(155, 70, 70);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.me{
+    width: 30%;
+    margin: 10px 27px 10px 323px;
+    position: relative;
+    background-color: rgb(223, 205, 45);
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.other{
+    width: 30%;
+    margin: 10px 60px 10px 27px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.date{
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+.a{
+    height: auto;
+    background: gray;
+}
+.bitch{
+    margin-top: 0;
+    font-size: 14px;
+    font-style: oblique;
+    color: rgb(155, 70, 70);
+}
+.btn{
+    background-color: white;
+    border-radius: 5px;
+    border:2px solid rgb(155, 70, 70);
+    margin-bottom: 0px;
+    padding: 5px;
+    width: 40px;
+    height: 20px;
+    font-style:initial;
+    font-size: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
+
+.input{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
